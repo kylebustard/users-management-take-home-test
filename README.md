@@ -12,6 +12,8 @@ Run in development mode with `yarn start` or `npm run start`, view at `http://lo
 
 The sample app is just one page representing a users-management UI in a typical web app. Please complete the tasks below in any way you feel is effective and efficient — you can approach state management however you see fit, add dependencies if necessary, etc.
 
+Localization is not required. Browser support is modern browsers only (i.e., no need to consider IE 11 if the question arises).
+
 ### Features
 
 1. Make a network request to [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users) and use the response to populate the `UsersTable`, sorted by the `username` field, when the page loads.
