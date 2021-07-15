@@ -14,6 +14,6 @@ The sample app is just one page representing a users-management UI in a typical 
 
 ### Features
 
-1. Make a network request to [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users) and use the response to populate the `UsersTable`, sorted by the `Username` field, when the page loads.
-2. Extend the `UsersForm` to allow for rendering a new user into the `UsersTable`. All three fields should be required to make an addition.
+1. Make a network request to [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users) and use the response to populate the `UsersTable`, sorted by the `username` field, when the page loads.
+2. Extend the `UserForm` to allow for rendering a new user into the `UsersTable`. All three fields should be supplied to make an addition.
 3. [stretch goal] Refactor the the `UsersTable` so that entries contain an “Edit” link on the right. When clicked, populate the form with the user details and allow updating the local view of that user from the form with changes.
