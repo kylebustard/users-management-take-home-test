@@ -12,7 +12,7 @@ const UserForm = () => (
     </fieldset>
     <fieldset>
       <label htmlFor="email">Email</label>
-      <input name="username" id="username"></input>
+      <input name="email" id="email"></input>
     </fieldset>
     <button type="submit">Submit</button>
   </form>
