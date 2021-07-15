@@ -19,3 +19,7 @@ Localization is not required. Browser support is modern browsers only (i.e., no 
 1. Make a network request to [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users) and use the response to populate the `UsersTable`, sorted by the `username` field, when the page loads.
 2. Extend the `UserForm` to allow for rendering a new user into the `UsersTable`. All three fields should be supplied to make an addition.
 3. [stretch goal] Refactor the the `UsersTable` so that entries contain an “Edit” link on the right. When clicked, populate the form with the user details and allow updating the local view of that user from the form with changes.
+
+### Submission
+
+Push your repo to your own GitHub account and submit a link via the form provided on Coderbyte.
