@@ -4,9 +4,9 @@ const UsersTable = () => (
   <table className="UsersTable">
     <thead>
       <tr>
-        <th>Name</th>
-        <th>Username</th>
-        <th>Email</th>
+        <td>Name</td>
+        <td>Username</td>
+        <td>Email</td>
       </tr>
     </thead>
   </table>
