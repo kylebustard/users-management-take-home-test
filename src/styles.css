@@ -14,6 +14,7 @@ h2 {
 }
 
 h2 {
+  margin-top: 3em;
   font-size: 1.25rem;
 }
 
@@ -22,18 +23,6 @@ h2 {
 .UsersTable {
   width: 100%;
   max-width: 1000px;
-  border-collapse: collapse;
-  margin-bottom: 3rem;
-}
-
-.UsersTable th,
-.UsersTable td {
-  border: solid 1px #ccc;
-  padding: 0.5rem;
-}
-
-.UsersTable th {
-  text-align: left;
 }
 
 /*  UserForm */
