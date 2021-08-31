@@ -1,4 +1,4 @@
-const webpack = require('webpack');
+/* global require, __dirname, module */
 const path = require('path');
 
 const config = {
@@ -27,7 +27,7 @@ const config = {
     },
   },
   devServer: {
-    contentBase: './dist',
+    static: './dist',
   },
 };
 
