@@ -3,6 +3,11 @@
 This is a take home test I did for an interview in April 2023.
 The goal was to build a simple SPA app and demonstrate proficiency with React and front end development.
 
+The branch `main` shows my work.
+
+The branch `original-assessment` is the skeleton start code I started with. It has original git history intact with two changes: omission of the company name, and omission of the git commit authors who have been swapped with "John Doe".
+
+
 ## What you will see in this app:
 
 - Use of hooks like `useState` and `useEffect`–These are the bread and butter for any React developer.
