@@ -23,6 +23,12 @@ const UserManagement = () => {
   const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
+    // There is currently no cleanup function here, 
+    // so if this component suddenly dismounts (e.g., in a client-routed SPA) before the API response is received and handled
+    // then there could be unexpected behavior that could lead to bad UX or memory leaks.
+    // A less optimal solution is setting a `useEffect` cleanup function
+    // where `setMounted(false)` and checking if the component `isMounted` before setting the API response data or handling errors.
+    // A better solution is using the AbortController API to send a signal to cancel the request, and cancel any request in a `useEffect` cleanup function.
     async function fetchUsers() {
       try {
         setIsLoading(true);
