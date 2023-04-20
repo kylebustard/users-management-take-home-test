@@ -5,7 +5,7 @@ The goal was to build a simple SPA app and demonstrate proficiency with React an
 
 The branch `main` shows my work.
 
-The branch `original-assessment` is the skeleton start code I started with. It has original git history intact with two changes: omission of the company name, and omission of the git commit authors who have been swapped with "John Doe".
+The branch `original-assessment` is the skeleton start code I started with. It has original git history intact with two changes: omission of the company name, and omission of the git commit authors who have been swapped with "John Doe". Note that the git history for this branch is different from `main`, and this is because I retroactively pushed `original-assessment` from a different project after I'd already created this project.
 
 
 ## What you will see in this app:
